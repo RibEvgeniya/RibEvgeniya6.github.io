@@ -1,0 +1,58 @@
+.logo 
+{
+    width: 100px;
+    border-radius: 20% 20%;
+}
+.back
+{
+background-color: #FFE4C4;
+
+}
+header {
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 5px;
+    border-bottom: 15px dotted #FFF8DC;;
+}
+h1 {
+    font-size: 22px;
+    font-weight: 600;
+}
+h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+h3 {
+    font-size: 18px;
+    font-weight: 400;
+}
+.container a{
+    padding: 5px;
+}
+.container{
+    font-size: 22px;
+    color: #800000;
+}
+button {
+    background-color: #FFE4C4;;
+    border: 7px outset #BC8F8F;
+    color: #800000;
+}
+.myyellow{background-color: #FFF8DC;}
+
+.myred{background-color: #BC8F8F;}
+
+.myorange{ background-color: #FFE4C4;}
+
+@media (min-width: 768px) {
+
+h2 {
+    font-size: 50px;
+}
+.container a{
+    padding: 5px;
+    color: #800000;
+}
+
+    
+}

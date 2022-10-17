@@ -1,0 +1,79 @@
+<DOCTYPE html>
+<html lang=ru>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Fs6GmWNtPELUYvqgyFquzg06GkKWPNg1Q6Z6Y2WlIuIe7VlmT8aQfV0r8sduMdreeXjC2PqGQtExAvawUVL6Jhubap2nmchjm_RZJ156T_hqDTrrz-NnMmFV9Z3mWUkG" charset="UTF-8"></script><script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="dop.css">        
+<script src="tabl.js"></script>
+<title>Шестое задание</title>
+</head>
+
+<div class="back">
+<body>
+<div class="myred p-2 container">
+<header class="text-left p-3">
+<img class="logo float-left" src="mylogo.png" alt="логотип">
+<h2 class="text-center">Самые вкусные тортики</h2>
+
+</header>
+</div>
+
+<div class=" myyellow container">
+
+<h2>Ваш заказ :</h2>
+            <form name="calculator">
+                <div class="row">
+                    <div class="col-5 col-lg-3">
+                        Выберите вид тортика:
+                    </div>
+                    <div class="col-5 col-lg-3">
+                        Выберите количество тортов:
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-5 col-lg-3">
+                        <select name="type">
+                            <option value="1">Испанский медовик</option>
+                            <option value="2">Чиз-кейк</option>
+                            <option value="3">Шоколадно-карамельный</option>
+                        </select>
+                    </div>
+                    <div class="col-7 col-lg-4">
+                        <input id="count" type="number" value="1">
+                    </div>
+                    <div class="col-lg-5"></div>
+                    <br>
+                    <div class="row">
+                        <div id="radios">
+                            <div class="col-12 pl-4">
+                                <label><input type="radio" name="options" value="1">Половина торта</label>
+                            </div>
+                            <div class="col-12 pl-4">
+                                <label><input type="radio" name="options" value="2">Целый торт</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div id="checkboxes">
+                            <div class="col-12 pl-4">
+                                <label><input type="checkbox" name="1">Добавить больше карамели</label>
+                            </div>
+                            <div class="col-12 pl-4">
+                                <label><input type="checkbox" name="2">Добавить больше шоколада</label>
+                            </div>
+                            <div class="col-12 pl-4">
+                                <label><input type="checkbox" name="3">Добавить узор на заказ</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            Цена вашего заказа:
+            <div id="price"></div>
+        </div>
+    </body>
+</html>
